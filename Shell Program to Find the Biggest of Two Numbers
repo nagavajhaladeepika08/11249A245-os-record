@@ -1,0 +1,16 @@
+echo "Enter first number:" 
+read a 
+echo "Enter second number:" 
+read b 
+if [ $a -gt $b ] 
+then 
+  echo "Biggest number is $a" 
+else 
+  echo "Biggest number is $b" 
+fi
+output:
+Enter first number: 
+10 
+Enter second number: 
+25 
+Biggest number is 25 
